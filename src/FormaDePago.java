@@ -8,6 +8,7 @@ public class FormaDePago implements IServiciosFormaDePago{
 
     @Override
     public void RealizaElCargoALaFormaDePago() {
+        System.out.println("El Cargo está en Proceso...");
         this.servicioDeCobranza.ProcesarPago();
     }
 }

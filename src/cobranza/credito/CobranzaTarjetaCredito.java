@@ -1,4 +1,8 @@
-public class CobranzaTarjetaCredito implements IServicioDeCobranza{
+package cobranza.credito;
+
+import cobranza.IServicioDeCobranza;
+
+public class CobranzaTarjetaCredito implements IServicioDeCobranza {
     @Override
     public void ProcesarPago() {
         System.out.println("Pagando con Tarjeta de Crédito. A 24 Meses sin intereses.");

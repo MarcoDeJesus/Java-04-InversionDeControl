@@ -1,4 +1,9 @@
-public class FormaDePago implements IServiciosFormaDePago{
+package base;
+
+import cobranza.IServicioDeCobranza;
+import formasDePago.IServiciosFormaDePago;
+
+public class FormaDePago implements IServiciosFormaDePago {
 
     private IServicioDeCobranza servicioDeCobranza;
 

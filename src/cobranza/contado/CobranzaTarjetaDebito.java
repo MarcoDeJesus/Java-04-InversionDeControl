@@ -1,3 +1,7 @@
+package cobranza.contado;
+
+import cobranza.IServicioDeCobranza;
+
 public class CobranzaTarjetaDebito implements IServicioDeCobranza {
     @Override
     public void ProcesarPago() {
